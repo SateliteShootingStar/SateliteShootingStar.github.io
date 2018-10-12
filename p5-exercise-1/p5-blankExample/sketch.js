@@ -1,7 +1,8 @@
 
 
 // declare variables here
-
+let birds=0;
+let xPos=0;
 
 function setup() {
   // put setup code here --> this runs once upon launch
@@ -13,15 +14,17 @@ function setup() {
 
 
 function draw() {
-  //birds-=5;
-  //console.log("There are" + birds + "birds");
+  birds-=5;
+  xPos++;
+
+  console.log(xPos);
 
   background(100);
   // put drawing code here --> this loops every frame
-  fill(20, 100, 255);
+  fill(random(100, 255));
   stroke(255);
   strokeWeight(5);
-  ellipse(400, 200, 200, 80);
+  ellipse(xPos, 200, 200, 80);
 
 // drawing a red rectangle
   fill(255, mouseX, 150,);
