@@ -7,14 +7,14 @@ function setup() {
   // put setup code here --> this runs once upon launch
 
   createCanvas(600, 500);
-  birds="pretty"
+  //birds="pretty"
 
 }
 
 
 function draw() {
-  birds++;
-  console.log("There are" + birds + "birds");
+  //birds-=5;
+  //console.log("There are" + birds + "birds");
 
   background(100);
   // put drawing code here --> this loops every frame
