@@ -1,5 +1,7 @@
 body{
-background-image: url("https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12225919/Pembroke-Welsh-Corgi-On-White-01.jpg");
+background-image: url("http://www.americas-most-haunted.com/wp-content/uploads/2016/10/halloween-stencils-design-cat-black-mean-craft.jpg");
+text-align: center;
+//*background-image: url("assets/staticBG.jpg");*/
 }
 
 
@@ -8,6 +10,16 @@ p {
   color: yellow;
 }
 
-h1 {color: green;
+h1 {
 
+  color: green;
+
+}
+
+.white-box {
+background-color: white;
+width: 400px;
+padding: 50px;
+border: 5px solid black;
+margin: auto;
 }
