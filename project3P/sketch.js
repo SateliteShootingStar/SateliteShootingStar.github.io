@@ -1,13 +1,16 @@
 "use strict";
 
+
 let pixelArray = [];
 let numOfPixels = 69;
+
 
 function setup() {
   let canvas = createCanvas(windowWidth, windowHeight);
   canvas.parent('bgCanvas');
 
   frameRate(30);
+
 
   // pixel animation
   for (let i = 0; i < numOfPixels; i++) {
