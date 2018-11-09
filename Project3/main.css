@@ -4,8 +4,15 @@ body {
   url("https://www.maxpixel.net/static/photo/2x/Effect-Light-Black-Background-Weave-Blue-Braid-18088.jpg");
   text-align: center;
   line-height: 1.5;
-  padding: 30px 20px;
+  padding: 50px 20px;
   //*background-image: url("assets/staticBG.jpg");*/
+}
+
+#bgCanvas {
+  position: fixed;
+  top: 5px;
+  left: 5px;
+  z-index: -2;
 }
 
 p {
@@ -15,19 +22,40 @@ p {
 
 h1
 {
-  color: yellow;
-  padding: 20px 0px 10px 0px;
+  color: white;
+  padding: 10px 0px 10px 0px;
 }
+
 
 h2
 {
   color: yellow;
+padding: 50px 0px 10px 0px;
+
 }
 
 h3
 {
   color: yellow;
+  padding: 50px 0px 10px 0px;
+
+
 }
+
+.static-div {
+  background-image: url("https://cdn12.picryl.com/photo/2016/12/31/background-texture-colorful-backgrounds-textures-c08185-1024.jpg");
+  background-repeat: repeat;
+  padding: 10px;
+  align-self: center;
+  margin-bottom: 60px;
+}
+
+.black-div {
+  padding: 5px;
+  background-color: #020407;
+  color: #ffffff;
+  text-align: center;
+  align-self: center;
 
 }
 
