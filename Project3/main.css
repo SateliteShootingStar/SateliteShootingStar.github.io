@@ -8,16 +8,9 @@ body {
   //*background-image: url("assets/staticBG.jpg");*/
 }
 
-#bgCanvas {
-  position: fixed;
-  top: 5px;
-  left: 5px;
-  z-index: -2;
-}
-
 p {
   font-size: 42px;
-  color: yellow;
+  color: white;
 }
 
 h1
